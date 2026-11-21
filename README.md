@@ -1,25 +1,35 @@
 # Mir Mohammad Ahad — Developer Portfolio
 
-Responsive React portfolio built with Vite. The hero section uses your profile photo at `public/ahad.jpg`.
+React + Vite personal portfolio configured for GitHub Pages at `https://mirmohammadahad.github.io/Portfolio/`.
 
-## Run locally (Windows PowerShell)
+## Run locally (PowerShell)
+
 ```powershell
 npm install
 npm run dev
 ```
-Open the local URL shown in the terminal.
 
-## Production build
+## Build locally
+
 ```powershell
 npm run build
+npm run preview
 ```
-The production files are generated in `dist/`.
 
-## Before publishing
-- Confirm your project descriptions and project statuses are accurate.
-- Add the individual GitHub repository links for each project.
-- Confirm your internship dates and responsibilities.
-- Add a resume PDF if you want a downloadable CV link.
+## Deploy to GitHub Pages
 
-## Deploy with Vercel
-Push this project to GitHub, import the repository at https://vercel.com/, use `npm run build` as the build command and `dist` as the output directory.
+1. Push this project to the GitHub repository named **Portfolio** on the `main` branch.
+2. Open repository **Settings → Pages**.
+3. Under **Build and deployment**, select **GitHub Actions** as the source.
+4. Open the **Actions** tab and wait for `Deploy portfolio to GitHub Pages` to finish successfully.
+5. Visit `https://mirmohammadahad.github.io/Portfolio/`.
+
+The workflow builds the Vite app and deploys the `dist` folder. Do not select “Deploy from a branch / root” for this workflow.
+
+## Personal details to verify before sharing
+
+- Email: `mdahad626675@gmail.com`
+- GitHub: `https://github.com/mirmohammadahad`
+- LinkedIn: `https://www.linkedin.com/in/mir-mohammad-ahad-4078b6385/`
+- Profile photo: `public/ahad.jpg`
+- Verify every project description, project status, internship date, and achievement before applying for jobs.
